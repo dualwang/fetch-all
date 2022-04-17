@@ -4,7 +4,7 @@
 实现思路及部分代码来自[DoubanAllInOne](https://github.com/LumosLovegood/myScripts/tree/main/DoubanAllInOne)、豆瓣JS解密代码来自[Spider-Crack-JS](https://github.com/SergioJune/Spider-Crack-JS)，感谢以上作者。
 
 ## I. 功能说明
-![](https://raw.githubusercontent.com/laowdev/fetch-all/master/douban/images/function-select.png =100)
+![](https://raw.githubusercontent.com/laowdev/fetch-all/master/douban/images/function-select.png =100x50)
 
 ### 功能1：搜索豆瓣内容并生成笔记  
 输入关键字进行搜索
@@ -75,7 +75,7 @@ CreateMusicNote
 
 ## IV. 附1：字段说明
 ### 书籍
-| <div style="width:25%">字段名称</div>  | <div style="width:25%">字段说明</div> | <div style="width:50%">字段示例</div> |
+| 字段名称  | 字段说明 | 字段示例 |
 | ------------ | -------- | -------- |
 | title        | 书名     |   万历十五年（增订本）       |
 |subtitle      |副标题|    |
@@ -104,7 +104,7 @@ CreateMusicNote
 |rank|豆瓣榜单|豆瓣热门历史图书TOP10 (No.9)|
 
 ### 电影
-| <div style="width:25%">字段名称</div>  | <div style="width:25%">字段说明</div>  | <div style="width:50%">字段示例</div>    |
+| 字段名称 | 字段说明  | 字段示例  |
 | ------------ | ------------- | ------------------------------------- |
 | title        | 片名          | 星际穿越                        |
 | fullTitle    | 全名（包含原名） | 星际穿越 Interstellar       |
@@ -128,7 +128,7 @@ CreateMusicNote
 | episodeNum   | 集数    |    |
 
 ### 音乐
-| <div style="width:25%">字段名称</div> | <div style="width:25%">字段说明</div> | <div style="width:50%">字段示例</div>  |
+| 字段名称 | 字段说明 | 字段示例 |
 | ------------ | ----------- | ------------------------------------------------------------ |
 | title        | 歌名/专辑名 | 范特西                                                       |
 | linkUrl      | 豆瓣链接    | https://music.douban.com/subject/1403307/                    |
