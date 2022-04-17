@@ -4,25 +4,25 @@
 实现思路及部分代码来自[DoubanAllInOne](https://github.com/LumosLovegood/myScripts/tree/main/DoubanAllInOne)、豆瓣JS解密代码来自[Spider-Crack-JS](https://github.com/SergioJune/Spider-Crack-JS)，感谢以上作者。
 
 ## I. 功能说明
-<img src="https://raw.githubusercontent.com/laowdev/fetch-all/master/douban/images/function-select.png" width="200px" />
+<img src="https://raw.githubusercontent.com/laowdev/fetch-all/master/douban/images/function-select.png" width="600px" />  
 
 ### 功能1：搜索豆瓣内容并生成笔记  
-输入关键字进行搜索
-![](https://raw.githubusercontent.com/laowdev/fetch-all/master/douban/images/common-search-input.png)
-选择搜索结果
-![](https://raw.githubusercontent.com/laowdev/fetch-all/master/douban/images/search-result.png)
-生成笔记
-![](https://raw.githubusercontent.com/laowdev/fetch-all/master/douban/images/movie-note.png)
+输入关键字进行搜索  
+<img src="https://raw.githubusercontent.com/laowdev/fetch-all/master/douban/images/common-search-input.png" width="600px" />  
+选择搜索结果  
+<img src="https://raw.githubusercontent.com/laowdev/fetch-all/master/douban/images/search-result.png" width="600px" />  
+生成笔记  
+<img src="https://raw.githubusercontent.com/laowdev/fetch-all/master/douban/images/movie-note.png" width="600px" />  
 
 ### 功能2：输入豆瓣链接并生成笔记  
-直接输入豆瓣链接，然后生成笔记
-![](https://raw.githubusercontent.com/laowdev/fetch-all/master/douban/images/url-import.png)
+直接输入豆瓣链接，然后生成笔记  
+<img src="https://raw.githubusercontent.com/laowdev/fetch-all/master/douban/images/url-import.png" width="600px" />  
 
 ## II. 使用说明
 ### 0. 使用前：安装QuickAdd插件
 进入Obsidian第三方插件商店，搜索并安装QuickAdd插件。  
-![](https://raw.githubusercontent.com/laowdev/fetch-all/master/douban/images/plugin.png)
-![](https://raw.githubusercontent.com/laowdev/fetch-all/master/douban/images/quickadd-plugin.png)
+<img src="https://raw.githubusercontent.com/laowdev/fetch-all/master/douban/images/plugin.png" width="600px" />  
+<img src="https://raw.githubusercontent.com/laowdev/fetch-all/master/douban/images/quickadd-plugin.png" width="600px" />  
 
 ### 1. 导入模版文件、脚本文件
 **模版文件**  
@@ -40,7 +40,7 @@ MusicTemplate.md
 CreateBookNote  
 CreateMovieNote  
 CreateMusicNote  
-![](https://raw.githubusercontent.com/laowdev/fetch-all/master/douban/images/add-template-choice.png)
+<img src="https://raw.githubusercontent.com/laowdev/fetch-all/master/douban/images/add-template-choice.png" width="600px" />  
 创建成功后，点击模版命令的设置按钮进行设置。  
 除模版文件路径（Template Path）为必须设置项，其他的配置可以按需进行配置。  
 
@@ -49,29 +49,29 @@ CreateMusicNote
 笔记所在文件夹（Create in folder）  
 重命名之后自动累加（Increment file name）  
 新建后自动打开笔记（Open）  
-![](https://raw.githubusercontent.com/laowdev/fetch-all/master/douban/images/template-settings.png)
+<img src="https://raw.githubusercontent.com/laowdev/fetch-all/master/douban/images/template-settings.png" width="600px" />  
 
 ### 3. 创建宏命令（Macro Choice）
-打开QuickAdd设置，点击Manage Macros按钮添加宏
-![](https://raw.githubusercontent.com/laowdev/fetch-all/master/douban/images/add-macro.png)
-宏创建成功后，点击Configure按钮，新增自定义脚本（User Scripts）fetch-douban.js
-![](https://raw.githubusercontent.com/laowdev/fetch-all/master/douban/images/add-script.png)
+打开QuickAdd设置，点击Manage Macros按钮添加宏  
+<img src="https://raw.githubusercontent.com/laowdev/fetch-all/master/douban/images/add-macro.png" width="600px" />  
+宏创建成功后，点击Configure按钮，新增自定义脚本（User Scripts）fetch-douban.js  
+<img src="https://raw.githubusercontent.com/laowdev/fetch-all/master/douban/images/add-script.png" width="600px" />  
 
-回到QuickAdd设置页，选择Macro类型，在输入框中输入命令名（可自定义名称），点击Add Choice按钮创建宏命令
-![](https://raw.githubusercontent.com/laowdev/fetch-all/master/douban/images/add-macro-choice.png)
-点击宏命令的设置按钮，选择宏，并点亮闪电图标
-![](https://raw.githubusercontent.com/laowdev/fetch-all/master/douban/images/macro-select.png)
-![](https://raw.githubusercontent.com/laowdev/fetch-all/master/douban/images/complete.png)
+回到QuickAdd设置页，选择Macro类型，在输入框中输入命令名（可自定义名称），点击Add Choice按钮创建宏命令  
+<img src="https://raw.githubusercontent.com/laowdev/fetch-all/master/douban/images/add-macro-choice.png" width="600px" />  
+点击宏命令的设置按钮，选择宏，并点亮闪电图标  
+<img src="https://raw.githubusercontent.com/laowdev/fetch-all/master/douban/images/macro-select.png" width="600px" />  
+<img src="https://raw.githubusercontent.com/laowdev/fetch-all/master/douban/images/complete.png" width="600px" />  
 ### 4. 执行宏命令
-打开Obsidian命令面板（MacOS快捷键：Command + P；Windows快捷键：Ctrl + P），选择刚刚创建的宏命令即可执行
-![](https://raw.githubusercontent.com/laowdev/fetch-all/master/douban/images/command-douban.png)
+打开Obsidian命令面板（MacOS快捷键：Command + P；Windows快捷键：Ctrl + P），选择刚刚创建的宏命令即可执行  
+<img src="https://raw.githubusercontent.com/laowdev/fetch-all/master/douban/images/command-douban.png" width="600px" />  
 如果命令无法生效，请重启Obsidian。
 
 ## III. 其他操作
 ### 修改模版命令的名称
-一般不建议修改模版命令名称，使用默认即可。如果修改，则需要同步修改脚本的配置。
-![](https://raw.githubusercontent.com/laowdev/fetch-all/master/douban/images/macro-settings.png)
-![](https://raw.githubusercontent.com/laowdev/fetch-all/master/douban/images/script-settings.png)
+一般不建议修改模版命令名称，使用默认即可。如果修改，则需要同步修改脚本的配置。  
+<img src="https://raw.githubusercontent.com/laowdev/fetch-all/master/douban/images/macro-settings.png" width="600px" />  
+<img src="https://raw.githubusercontent.com/laowdev/fetch-all/master/douban/images/script-settings.png" width="600px" />
 
 ## IV. 附1：字段说明
 ### 书籍
