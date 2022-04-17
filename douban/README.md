@@ -4,7 +4,7 @@
 实现思路及部分代码来自[DoubanAllInOne](https://github.com/LumosLovegood/myScripts/tree/main/DoubanAllInOne)、豆瓣JS解密代码来自[Spider-Crack-JS](https://github.com/SergioJune/Spider-Crack-JS)，感谢以上作者。
 
 ## I. 功能说明
-![](https://raw.githubusercontent.com/laowdev/fetch-all/master/douban/images/function-select.png)
+![|200](https://raw.githubusercontent.com/laowdev/fetch-all/master/douban/images/function-select.png)
 
 ### 功能1：搜索豆瓣内容并生成笔记  
 输入关键字进行搜索
@@ -32,7 +32,7 @@ MovieTemplate.md
 MusicTemplate.md  
 模板文件一般放置在Obsidian设定的模版文件夹中。模版内容可以根据个人需要进行调整，可以精简条目，也可以配置的更美观更复杂。  
 
-**脚本文件** 
+**脚本文件**  
 将脚本文件fetch-douban.js导入Obsidian库中（库中的任意位置即可）。  
 注意：Obsidian需要将“检测所有类型文件”的设置打开才能看到JS文件，但JS文件是否可见并不影响宏命令的配置。
 ### 2. 创建模版命令（Template Choice）
