@@ -4,7 +4,7 @@
 实现思路及部分代码来自[DoubanAllInOne](https://github.com/LumosLovegood/myScripts/tree/main/DoubanAllInOne)、豆瓣JS解密代码来自[Spider-Crack-JS](https://github.com/SergioJune/Spider-Crack-JS)，感谢以上作者。
 
 ## I. 功能说明
-![|200](https://raw.githubusercontent.com/laowdev/fetch-all/master/douban/images/function-select.png)
+![](https://raw.githubusercontent.com/laowdev/fetch-all/master/douban/images/function-select.png =100)
 
 ### 功能1：搜索豆瓣内容并生成笔记  
 输入关键字进行搜索
